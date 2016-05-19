@@ -22,8 +22,8 @@
 
 #Library imports
 
-from tkinter import *
-from tkinter import StringVar
+from Tkinter import *
+from Tkinter import StringVar
 import time
 from functools import partial
 
