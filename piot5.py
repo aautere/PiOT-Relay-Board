@@ -1,6 +1,29 @@
+#MIT License
+
+#Copyright (c) 2016 ModMyPi
+
+#Permission is hereby granted, free of charge, to any person obtaining a copy
+#of this software and associated documentation files (the "Software"), to deal
+#in the Software without restriction, including without limitation the rights
+#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+#copies of the Software, and to permit persons to whom the Software is
+#furnished to do so, subject to the following conditions:
+
+#The above copyright notice and this permission notice shall be included in all
+#copies or substantial portions of the Software.
+
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+#SOFTWARE.
+
 #Library imports
-from tkinter import *
-from tkinter import StringVar
+
+from Tkinter import *
+from Tkinter import StringVar
 import time
 from functools import partial
 
@@ -103,13 +126,11 @@ class App:
         self.ChannelButton36 = Button(frame, text="36",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton36.grid(row=18,column=3); 
         self.ChannelButton37 = Button(frame, text="37",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton37.grid(row=19,column=2); 
+        self.ChannelButton37.grid(row=18,column=2); 
         self.ChannelButton38 = Button(frame, text="38",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton38.grid(row=19,column=3); 
-        self.ChannelButton39 = Button(frame, text="39",bg = "gray",activebackground="gray",height=1, width=1)
-        self.ChannelButton39.grid(row=20,column=2); 
+        self.ChannelButton38.grid(row=18,column=3); 
         self.ChannelButton40 = Button(frame, text="40",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton40.grid(row=20,column=3);
+        self.ChannelButton40.grid(row=19,column=3);
 
         # create on and off actions for each button
         action_toggle3 = partial(self.ToggleOnOff, 0, self.ChannelButton3)
