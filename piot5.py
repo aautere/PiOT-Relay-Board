@@ -21,7 +21,6 @@
 #SOFTWARE.
 
 #Library imports
-
 from Tkinter import *
 from Tkinter import StringVar
 import time
@@ -47,23 +46,23 @@ class App:
 
         
         # Create and position each of the buttons
-        self.ChannelButton1 = Button(frame, text="1",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton1 = Button(frame, text="1",bg = "gray", activebackground="gray", state=DISABLED, height=1, width=1)
         self.ChannelButton1.grid(row=1,column=2); 
-        self.ChannelButton2 = Button(frame, text="2",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton2 = Button(frame, text="2",bg = "gray", activebackground="gray", state=DISABLED,height=1, width=1)
         self.ChannelButton2.grid(row=1,column=3); 
         self.ChannelButton3 = Button(frame, text="3",bg = "red", activebackground="red", height=1, width=1)
         self.ChannelButton3.grid(row=2,column=2); 
-        self.ChannelButton4 = Button(frame, text="4",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton4 = Button(frame, text="4",bg = "gray", activebackground="gray", state=DISABLED,height=1, width=1)
         self.ChannelButton4.grid(row=2,column=3); 
         self.ChannelButton5 = Button(frame, text="5",bg = "red", activebackground="red",height=1, width=1)
         self.ChannelButton5.grid(row=3,column=2); 
-        self.ChannelButton6 = Button(frame, text="6",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton6 = Button(frame, text="6",bg = "gray", activebackground="gray",state=DISABLED, height=1, width=1)
         self.ChannelButton6.grid(row=3,column=3); 
         self.ChannelButton7 = Button(frame, text="7",bg = "red", activebackground="red",height=1, width=1)
         self.ChannelButton7.grid(row=4,column=2); 
         self.ChannelButton8 = Button(frame, text="8",bg = "red", activebackground="red",height=1, width=1)
         self.ChannelButton8.grid(row=4,column=3);
-        self.ChannelButton9 = Button(frame, text="9",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton9 = Button(frame, text="9",bg = "gray", activebackground="gray", state=DISABLED,height=1, width=1)
         self.ChannelButton9.grid(row=5,column=2); 
         
         self.ChannelButton10 = Button(frame, text="10",bg = "red",activebackground="red",height=1, width=1)
@@ -74,21 +73,21 @@ class App:
         self.ChannelButton12.grid(row=6,column=3); 
         self.ChannelButton13 = Button(frame, text="13",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton13.grid(row=7,column=2);
-        self.ChannelButton14 = Button(frame, text="14",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton14 = Button(frame, text="14",bg = "gray", activebackground="gray", state=DISABLED,height=1, width=1)
         self.ChannelButton14.grid(row=7,column=3); 
         
         self.ChannelButton15 = Button(frame, text="15",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton15.grid(row=8,column=2); 
         self.ChannelButton16 = Button(frame, text="16",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton16.grid(row=8,column=3);
-        self.ChannelButton17 = Button(frame, text="17",bg = "gray", activebackground="gray", height=1, width=1)
+        self.ChannelButton17 = Button(frame, text="17",bg = "gray", activebackground="gray", state=DISABLED,height=1, width=1)
         self.ChannelButton17.grid(row=9,column=2); 
         
         self.ChannelButton18 = Button(frame, text="18",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton18.grid(row=9,column=3); 
         self.ChannelButton19 = Button(frame, text="19",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton19.grid(row=10,column=2); 
-        self.ChannelButton20 = Button(frame, text="20",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton20 = Button(frame, text="20",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton20.grid(row=10,column=3); 
         self.ChannelButton21 = Button(frame, text="21",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton21.grid(row=11,column=2); 
@@ -98,19 +97,19 @@ class App:
         self.ChannelButton23.grid(row=12,column=2); 
         self.ChannelButton24 = Button(frame, text="24",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton24.grid(row=12,column=3); 
-        self.ChannelButton25 = Button(frame, text="25",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton25 = Button(frame, text="25",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton25.grid(row=13,column=2); 
         self.ChannelButton26 = Button(frame, text="26",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton26.grid(row=13,column=3); 
 
-        self.ChannelButton27 = Button(frame, text="27",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton27 = Button(frame, text="27",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton27.grid(row=14,column=2); 
-        self.ChannelButton28 = Button(frame, text="28",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton28 = Button(frame, text="28",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton28.grid(row=14,column=3); 
 
         self.ChannelButton29 = Button(frame, text="29",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton29.grid(row=15,column=2); 
-        self.ChannelButton30 = Button(frame, text="30",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton30 = Button(frame, text="30",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton30.grid(row=15,column=3); 
         self.ChannelButton31 = Button(frame, text="31",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton31.grid(row=16,column=2); 
@@ -118,7 +117,7 @@ class App:
         self.ChannelButton32.grid(row=16,column=3); 
         self.ChannelButton33 = Button(frame, text="33",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton33.grid(row=17,column=2);
-        self.ChannelButton34 = Button(frame, text="34",bg = "gray",activebackground="gray",height=1, width=1)
+        self.ChannelButton34 = Button(frame, text="34",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
         self.ChannelButton34.grid(row=17,column=3); 
         
         self.ChannelButton35 = Button(frame, text="35",bg = "red",activebackground="red",height=1, width=1)
@@ -126,11 +125,13 @@ class App:
         self.ChannelButton36 = Button(frame, text="36",bg = "red",activebackground="red",height=1, width=1)
         self.ChannelButton36.grid(row=18,column=3); 
         self.ChannelButton37 = Button(frame, text="37",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton37.grid(row=18,column=2); 
+        self.ChannelButton37.grid(row=19,column=2); 
         self.ChannelButton38 = Button(frame, text="38",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton38.grid(row=18,column=3); 
+        self.ChannelButton38.grid(row=19,column=3); 
+        self.ChannelButton39 = Button(frame, text="39",bg = "gray",activebackground="gray",state=DISABLED,height=1, width=1)
+        self.ChannelButton39.grid(row=20,column=2); 
         self.ChannelButton40 = Button(frame, text="40",bg = "red",activebackground="red",height=1, width=1)
-        self.ChannelButton40.grid(row=19,column=3);
+        self.ChannelButton40.grid(row=20,column=3);
 
         # create on and off actions for each button
         action_toggle3 = partial(self.ToggleOnOff, 0, self.ChannelButton3)
@@ -239,9 +240,9 @@ class App:
         l23.grid (row=12, column=0)
         l24 = Label(frame, text = "GPIO08", height=1, width=6);
         l24.grid (row=12, column=4)
-        l25 = Label(frame, text = "GPIO08", height=1, width=6);
+        l25 = Label(frame, text = "GND", height=1, width=6);
         l25.grid (row=13, column=0)
-        l26 = Label(frame, text = "GND", height=1, width=6);
+        l26 = Label(frame, text = "GPI1007", height=1, width=6);
         l26.grid (row=13, column=4)
         l27 = Label(frame, text = "NC", height=1, width=6);
         l27.grid (row=14, column=0)
