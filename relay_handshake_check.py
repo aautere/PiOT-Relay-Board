@@ -73,7 +73,7 @@ def disconnect():
 try:
 
         while True:
-                input = raw_input("connect/disconnect (d/c): ")
+                input = raw_input("connect/disconnect (c/d): ")
 
                 if input == "c":
                         connect()
